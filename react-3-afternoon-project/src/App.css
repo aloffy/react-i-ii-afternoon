@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.BoldText {
+  font-weight: bold;
+}
+
+.Header {
+  background-color: dodgerblue;
+  padding: 2vh 0 2vh 3%;
+  color: rgb(34, 34, 34);
+}
+
+.Main {
+  background-color: rgb(34, 34, 34);
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.CardContainer {
+  background-color: white;
+  height: max-content;
+  width: 70vw;
+  position: relative;
+  padding: 50px;
+}
+
+  .PersonName {
+    font-size: 30px;
+    text-decoration: underline dodgerblue;
+  }
+
+  .CardId {
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+  }
+
+  .CardText {
+    margin: 10px;
+  }
+
+.ButtonBar {
+  width: 68vw;
+  margin: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavigationButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
